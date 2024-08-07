@@ -1,11 +1,11 @@
-/*  Styles */
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f5f5f5;
-    color: #333;
     scroll-behavior: smooth;
+    background:url('https://th.bing.com/th/id/OIP.3U25gP3WMWJ4HFhqRfhoqwHaNL?pid=ImgDet&w=187&h=333&c=7&dpr=1.4');
+    background-size: cover;
 }
 
 header {
