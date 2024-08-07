@@ -1,1 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Unique Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1 class="name">Bhoomika ks</h1>
+            <p class="tagline">Turning code into innovation</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Creative Space</h2>
+            <p>Discover my journey, skills, and projects that define my professional path.</p>
+            <a href="#projects" class="cta-button">See My Work</a>
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src='https://th.bing.com/th/id/OIP.Ay2GE9RAY3gRKb8A5r1HywHaHa?w=187&h=187&c=7&r=0&o=5&dpr=1.4&pid=1.7'>
+                <div class="bio">
+                    <p>Hi! I'm Bhoomika ks, a passionate coder with a knack for turning ideas into elegant digital solutions. With expertise in web development, I bring creativity and technical know-how to every project I undertake.</p>
+                    <p>My journey began with a fascination for technology and design, and over the years, I've honed my skills through various projects and experiences. I believe in creating user-centered designs that not only look good but also work seamlessly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-set">
+                <div class="skill">
+                    <img src="https://th.bing.com/th/id/OIP.744mxzC5wmuJwSAv6Ej3XwHaHa?w=151&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" >
+                    <h3>HTML</h3>
+                    <p>Expert in creating clean and semantic markup for web pages.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://th.bing.com/th/id/OIP.Bsr2oJPJJwC6LHzuLRuaXwHaEP?w=375&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="CSS">
+                    <h3>CSS</h3>
+                    <p>Proficient in designing responsive and aesthetically pleasing layouts.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://th.bing.com/th/id/OIP.25vSXGJsvi1u3JIjcfvfNQHaEo?w=227&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="JavaScript">
+                    <h3>JavaScript</h3>
+                    <p>Skilled in building interactive and dynamic web applications.</p>
+                </div>
+                <div class="skill">
+                    <img src="https://th.bing.com/th/id/OIP.e1-IPU2gjdsmUK38abfEZAAAAA?rs=1&pid=ImgDetMain" alt="React">
+                    <h3>React</h3>
+                    <p>Experienced in developing modern, single-page applications with React.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <img src="https://th.bing.com/th/id/OIP.BZIpqvmJnBU7YKVkAn9jlQHaDu?w=310&h=176&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Speech and emotion recognition</h3>
+                        <p>Technology evolve with time,our project aim to detect the various emotions through voice.It detects if the person the happy,sad,angry etc by analysizing the frequency of the voice and using various alogirthms like KNN,MFCC. </p>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="https://th.bing.com/th/id/OIP.QvRix62h2ajJJn6SkQhpdQHaEh?w=291&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" alt="Project 2">
+                    <div class="project-info">
+                        <h3>Driver motinoring system</h3>
+                        <p>This is AI opencv project which detects Drowsiness of the Driver.</p>
+                        <a href="#" class="project-link">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Language">
+        <div class="container">
+            <h2>Languages</h2>
+            <ul>
+                <li>Kannada</li><br>
+                <li>English</li><br>
+                <li>Hindi</li><br>
+                <li>Korea</li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Bhoomika ks. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
+                <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
 
