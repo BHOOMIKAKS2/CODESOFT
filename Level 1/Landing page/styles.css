@@ -1,4 +1,3 @@
-/* General Reset and Body Styles */
 body {
     margin: 0;
     padding: 0;
@@ -7,19 +6,19 @@ body {
     background-size: cover;
 }
 
-/* Header Styles */
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
     background: rgba(0, 0, 0, 0.7);
-    background-size: cover; /* Ensure the background covers the whole header */
+    background-size: cover; 
 }
 
 .logo {
     font-size: 24px;
-    color: beige; /* Gray color for the logo */
+    color: beige; 
     text-decoration: none;
 
 }
@@ -39,7 +38,7 @@ nav {
     text-decoration: underline;
 }
 
-/* Hero Section Styles */
+
 .hero {
     display: flex;
     justify-content: center;
@@ -49,14 +48,14 @@ nav {
     color: #fff;
     padding: 20px;
     background: url('https://dpscriz4jc899.cloudfront.net/wp-content/uploads/2022/09/measure-effectiveness-internship-programs.jpg') no-repeat center center; /* Background image for hero section */
-    background-size: cover; /* Ensure the background covers the whole hero section */
+    background-size: cover; 
 }
 
 .hero-content {
     max-width: 800px;
-    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for better text readability */
+    background: rgba(0, 0, 0, 0.5); 
     padding: 20px;
-    border-radius: 10px; /* Optional: rounded corners for better appearance */
+    border-radius: 10px; 
 }
 
 .cta-button {
@@ -74,7 +73,6 @@ nav {
     background-color: #0056b3;
 }
 
-/* About Section Styles */
 .about-section {
     padding: 50px 20px;
     background: rgba(255, 255, 255, 0.9);
@@ -86,7 +84,6 @@ nav {
     margin-bottom: 20px;
 }
 
-/* Apply Section Styles */
 .apply-section {
     padding: 50px 20px;
     background: #f8f9fa;
@@ -114,7 +111,6 @@ nav {
     margin-top: 0;
 }
 
-/* Contact Section Styles */
 .contact-section {
     padding: 50px 20px;
     background: rgba(255, 255, 255, 0.9);
@@ -122,7 +118,6 @@ nav {
     text-align: center;
 }
 
-/* Footer Styles */
 footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.7);
@@ -134,7 +129,6 @@ marquee {
     font-size: 14px;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     .navigation {
         flex-direction: column;
