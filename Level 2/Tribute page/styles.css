@@ -1,1 +1,84 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.hero-image {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5_u242SbOud4GScXMIJC2HH3siQMNB30a6w&s') no-repeat center center/cover;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.about, .biography, .legacy {
+    margin-bottom: 20px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.biography .bio-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.biography img {
+    border-radius: 8px;
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.bio-text p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background:url('https://th.bing.com/th/id/OIP.Kz7QWyomHaq2RHfZZ6kM8AAAAA?w=328&h=184&c=7&r=0&o=5&dpr=1.4&pid=1.7');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
